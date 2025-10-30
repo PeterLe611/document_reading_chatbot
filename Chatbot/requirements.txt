@@ -1,0 +1,17 @@
+# Core LangChain - FIX THE CONFLICT
+langchain
+langchain-community
+langchain-google-genai
+langchain-qdrant
+
+# API builds
+fastapi
+uvicorn[standard]
+
+# Other essential packages
+streamlit
+# onnxruntime-cpu # FOR ONNX MODEL SUPPORT and INFERENCE - CPU INFERENCE
+htbuilder
+# docling # FOR OCR AND DOCUMENT PROCESSING
+unstructured[pdf,ocr]
+bs4
